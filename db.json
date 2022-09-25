@@ -2,13 +2,13 @@
   "posts": [
     {
       "id": 1,
-      "location": "布魯斯前端",
-      "account": "bruce_1234",
+      "location": "Sunnyvale",
+      "account": "Angela",
       "avatar": "/images/avatars/a1.png",
       "photo": "/images/posts/main1.png",
       "likes": 999,
-      "description": "我的老天鵝！",
-      "hashTags": "#鵝鵝",
+      "description": "Hello World",
+      "hashTags": "#hi",
       "createTime": "1 HOURS AGO"
     },
     {
@@ -18,8 +18,8 @@
       "avatar": "/images/avatars/a2.png",
       "photo": "/images/posts/main2.png",
       "likes": 333,
-      "description": "我的老天鵝！",
-      "hashTags": "#鵝鵝",
+      "description": "Hello World",
+      "hashTags": "#hi",
       "createTime": "5 HOURS AGO"
     },
     {
@@ -29,8 +29,8 @@
       "avatar": "/images/avatars/a3.png",
       "photo": "/images/posts/main3.png",
       "likes": 777,
-      "description": "我的老天鵝！",
-      "hashTags": "#鵝鵝",
+      "description": "Hello World",
+      "hashTags": "#hi",
       "createTime": "6 HOURS AGO"
     },
     {
@@ -40,8 +40,8 @@
       "avatar": "/images/avatars/a4.png",
       "photo": "/images/posts/main4.png",
       "likes": 824,
-      "description": "我的老天鵝！",
-      "hashTags": "#鵝鵝",
+      "description": "Hello World",
+      "hashTags": "#hi",
       "createTime": "7 HOURS AGO"
     },
     {
@@ -51,15 +51,15 @@
       "avatar": "/images/avatars/a5.png",
       "photo": "/images/posts/main5.png",
       "likes": 98,
-      "description": "我的老天鵝！",
-      "hashTags": "#鵝鵝",
+      "description": "Hello World",
+      "hashTags": "#hi",
       "createTime": "10 HOURS AGO"
     }
   ],
   "stories": [
     {
       "id": 1,
-      "name": "bruce_fe",
+      "name": "Angela",
       "avatar": "/images/avatars/a1.png"
     },
     {
