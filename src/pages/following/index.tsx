@@ -1,36 +1,11 @@
 import IGContainer from "components/IGContainer";
 import IGHeader from "components/IGHeader";
 import IGUser from "components/IGUser";
+import { useAppSelector } from "hooks";
 const Following: React.FC = () => {
-  const friends = [
-    {
-      id: 1,
-      location: "Singapore",
-      account: "max_999",
-      isFollowing: true,
-      avatar: "/images/avatars/a1.png",
-    },
-    {
-      id: 2,
-      location: "Singapore",
-      account: "fm_999",
-      isFollowing: true,
-      avatar: "/images/avatars/a2.png",
-    },
-    {
-      id: 3,
-      location: "Singapore",
-      account: "joanne_999",
-      isFollowing: true,
-      avatar: "/images/avatars/a3.png",
-    },
-    {
-      id: 4,
-      location: "Singapore",
-      account: "focus_999",
-      isFollowing: true,
-      avatar: "/images/avatars/a4.png",
-    }]
+  const friendReducer = useAppSelector((state) => state.friendReducer);
+  const friends = friendReducer.friends;
+  
   return (
     <>
       <IGHeader />
